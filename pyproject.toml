@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "pvals"
+version = "0.1.0"
+description = "Implements ALS for ECE 6502: Tensors for Data Science"
+authors = ["Zachary Blanks <zdb6dz@virginia.edu>"]
+
+[tool.poetry.dependencies]
+python = "^3.8, <3.11"
+numpy = "^1.22.1"
+scipy = "^1.7.3"
+matplotlib = "^3.5.1"
+PyQt5 = "^5.15.6"
+sounddevice = "^0.4.4"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = "^22.1.0"
+pylama = "^8.3.7"
+mypy = "^0.931"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
